@@ -1,10 +1,13 @@
-#N canvas 0 23 450 300 12;
+#N canvas 479 137 450 300 12;
 #X obj 169 89 inlet;
-#X obj 166 268 outlet;
+#X obj 166 269 outlet;
 #X floatatom 199 194 5 0 0 0 - - -;
 #X obj 186 228 sel 0;
 #X obj 201 160 random \$1;
+#X obj 232 263 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
 #X connect 0 0 4 0;
 #X connect 2 0 3 0;
 #X connect 3 0 1 0;
+#X connect 3 0 5 0;
 #X connect 4 0 2 0;
